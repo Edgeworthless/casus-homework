@@ -1,15 +1,13 @@
-import './index.css';
-import store from './lib/store';
-
-import {Provider} from 'react-redux';
-import {HomePage} from './pages/HomePage';
+import "./index.css";
+import { TemplatesPage } from "./pages/TemplatesPage";
+import AllTheProviders from "./components/AllTheProviders";
 
 function App() {
-    return (
-        <Provider store={store}>
-            <HomePage/>
-        </Provider>
-    );
+  return (
+    <AllTheProviders>
+      <TemplatesPage />
+    </AllTheProviders>
+  );
 }
 
 export default App;
