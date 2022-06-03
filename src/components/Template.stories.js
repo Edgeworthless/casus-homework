@@ -15,6 +15,6 @@ Default.args = {
     template: {
         id: 'EDCySL3sLJkkWT4CajCR',
         title: 'Test Template',
-        date: new Date(2021, 0, 1, 9, 0).toISOString(),
-    },
+        date: new Date(2021, 0, 1, 9, 0).toISOString()
+    }
 };

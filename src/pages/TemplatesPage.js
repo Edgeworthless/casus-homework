@@ -1,7 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { useSelector } from "react-redux";
-
 import { ReactQueryTemplateList, RTKTemplateList, TemplateList } from "../components/TemplateList";
 
 export function TemplatesPage() {
